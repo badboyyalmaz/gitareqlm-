@@ -89,7 +89,7 @@ module.exports = new Command({
           )
           .addField(
             `** Developer Info **`,
-            `** Name : <@882481863661342770> | [Youtube](https://youtube.com/techboy2) | [Github](https://github.com/kabirsingh2004) **`
+            `** Name : <@882481863661342770> | [Inavite](https://discord.com/api/oauth2/authorize?client_id=917899733446557697&permissions=8&scope=bot%20applications.commands) | [Support](https://discord.gg/w9VbqacYZt) **`
           );
         await interaction
           .followUp({
