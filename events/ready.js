@@ -5,7 +5,7 @@ const { databasing } = require("../handlers/functions");
 client.on("ready", async () => {
   console.log(`${client.user.username} Is Online`);
   client.user.setActivity({
-    name: `@${client.user.username} /play`,
+    name: `/play`,
     type: "PLAYING",
   });
 
