@@ -13,7 +13,7 @@ const client = new Client({
   },
   partials: ["MESSAGE", "CHANNEL", "REACTION"],
   intents: [
-    Intents.FLAGS.GUILD_MEMBERS,
+    
     Intents.FLAGS.GUILD_MESSAGES,
     Intents.FLAGS.GUILD_VOICE_STATES,
     Intents.FLAGS.DIRECT_MESSAGES,
