@@ -149,7 +149,7 @@ module.exports = async (client) => {
     .setColor("RANDOM")
     .setTitle(`Join Voice Channel to Play Song`)
     .setImage(
-      `https://linksharing.samsungcloud.com/hQWbOuvlmtj7Valid until 5 Mar 2022`
+      `https://linksharing.samsungcloud.com/hQWbOuvlmtj7`
     )
     .setDescription(
       `>>> ** I Support Youtube , Spotify , Soundclound many many More **`
