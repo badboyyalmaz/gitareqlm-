@@ -24,9 +24,8 @@ module.exports = new Command({
             name: client.user.username,
             iconURL: client.user.displayAvatarURL({ dynamic: true }),
           })
-          .setDescription(
-            `** Name: <@882481863661342770> | [Youtube Channel](https://youtube.com/techboy2) | [Github](https://github.com/kabirsingh2004) ** \n\n`
-          )
+          
+
           .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
           .addFields([
             {
