@@ -87,10 +87,6 @@ module.exports = new Command({
             `**👍 My Commands **`,
             `** Total ${client.commands.size} Commands and Total ${client.subcmd.size} Sub Commands **`
           )
-          .addField(
-            `** Developer Info **`,
-            `** Name : <@882481863661342770> | [Inavite](https://discord.com/api/oauth2/authorize?client_id=917899733446557697&permissions=8&scope=bot%20applications.commands) | [Support](https://discord.gg/w9VbqacYZt) **`
-          );
         await interaction
           .followUp({
             embeds: [embed],
