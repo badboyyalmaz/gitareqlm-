@@ -17,7 +17,7 @@ module.exports = new Command({
     // Code
 
     await interaction.guild.channels
-      .create(`SwellyMusic`, {
+      .create(`LIGHT PIRATES`, {
         type: "GUILD_TEXT",
         parent: interaction.channel.parentId,
         userLimit: 3,
