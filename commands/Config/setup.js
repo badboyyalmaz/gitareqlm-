@@ -17,7 +17,7 @@ module.exports = new Command({
     // Code
 
     await interaction.guild.channels
-      .create(`LIGHT PIRATES`, {
+      .create(`DOSTAN`, {
         type: "GUILD_TEXT",
         parent: interaction.channel.parentId,
         userLimit: 3,
